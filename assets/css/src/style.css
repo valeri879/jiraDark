@@ -1,0 +1,217 @@
+/* ----------------------
+
+    mixins
+
+---------------------- */
+/* ----------------------
+
+    libs && frameworks
+
+---------------------- */
+/* ----------------------  
+ 
+    vendors
+    
+---------------------- */
+/* ----------------------
+
+    fonts
+    
+---------------------- */
+@font-face {
+  font-family: 'BPG Arial';
+  src: url("../../fonts/bpg-arial-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/bpg-arial-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/bpg-arial-webfont.woff2") format("woff2"), url("../../fonts/bpg-arial-webfont.woff") format("woff"), url("../../fonts/bpg-arial-webfont.ttf") format("truetype"), url("../../fonts/bpg-arial-webfont.svg#bpg_arialregular") format("svg");
+  /* Legacy iOS */ }
+
+/* ----------------------
+
+    plugins
+    
+---------------------- */
+/* ---------------------- 
+ 
+    components
+     
+---------------------- */
+#jira {
+  background: #ccc; }
+  #jira .aui-header {
+    background: #1b1b1b; }
+  #jira .aui-header .aui-button.aui-button-primary.aui-style {
+    background-color: #1d87f3; }
+  #jira #summary-val {
+    font-family: "BPG arial", sans-serif; }
+  #jira .aui-page-panel,
+  #jira #ghx-pool {
+    background: #313131; }
+  #jira .gadget a, #jira .config a, #jira .ghx-controls-filters dd a {
+    font-family: "BPG arial", sans-serif;
+    color: #70b5ff; }
+  #jira #dashboard {
+    background: #4a4a4a;
+    border: 0; }
+  #jira .gadget {
+    background: #313131; }
+  #jira #issue-content, #jira .issue-view > .issue-container .issue-header, #jira .issue-header .issue-header-content > .command-bar {
+    background-color: #313131; }
+  #jira .issue-body-content .module > .mod-header > h1, #jira .issue-body-content .module > .mod-header > h2, #jira .issue-body-content .module > .mod-header > h3, #jira .issue-body-content .module > .mod-header > h4, #jira .issue-body-content .module > .mod-header > h5, #jira .issue-body-content .module > .mod-header > h6 {
+    background-color: #313131;
+    color: #ffffff; }
+  #jira .issue-body-content .module > .mod-header {
+    background: none; }
+  #jira #issuetable, #jira .issue-table {
+    background-color: #313131; }
+  #jira #ghx-column-header-group.ghx-fixed {
+    background: transparent; }
+  #jira #footer {
+    background: #313131; }
+  #jira #footer-logo {
+    background: #313131; }
+  #jira .gadget .dashboard-item-header {
+    border: 1px solid #3a3a3a; }
+  #jira .gadget .dashboard-item-content {
+    border: 1px solid #3a3a3a;
+    background: #313131; }
+  #jira #issuetable {
+    border-color: red; }
+    #jira #issuetable > thead > tr > th {
+      border-color: #3a3a3a; }
+    #jira #issuetable > thead > tr > td {
+      border-color: #3a3a3a; }
+    #jira #issuetable > thead .active {
+      color: #ffffff;
+      background-color: #4a4a4a; }
+    #jira #issuetable > thead .sortable:hover {
+      background-color: #4a4a4a;
+      color: #ffffff; }
+    #jira #issuetable > tbody > tr {
+      background-color: #313131;
+      color: #313131; }
+      #jira #issuetable > tbody > tr > th {
+        border-color: #3a3a3a; }
+      #jira #issuetable > tbody > tr > td {
+        border-color: #3a3a3a; }
+    #jira #issuetable > tfoot > tr {
+      background-color: #313131;
+      color: #313131; }
+      #jira #issuetable > tfoot > tr > td {
+        border-color: #3a3a3a; }
+  #jira .sprint-days-remaining-dashboard-item .ghx-remaining-wrap {
+    background: #313131; }
+  #jira .issue-table {
+    border-color: red; }
+    #jira .issue-table > thead > tr > th {
+      border-color: #3a3a3a; }
+    #jira .issue-table > thead > tr > td {
+      border-color: #3a3a3a; }
+    #jira .issue-table > thead .active {
+      color: #ffffff;
+      background-color: #4a4a4a; }
+    #jira .issue-table > thead .sortable:hover {
+      background-color: #4a4a4a;
+      color: #ffffff; }
+    #jira .issue-table > tbody > tr {
+      background-color: #313131;
+      color: #313131; }
+      #jira .issue-table > tbody > tr > th {
+        border-color: #3a3a3a; }
+      #jira .issue-table > tbody > tr > td {
+        border-color: #3a3a3a; }
+    #jira .issue-table > tfoot > tr {
+      background-color: #313131;
+      color: #313131; }
+      #jira .issue-table > tfoot > tr > td {
+        border-color: #3a3a3a; }
+
+.activity-stream-container {
+  background: #313131; }
+  .activity-stream-container h2 {
+    color: #ffffff; }
+
+.gadget .ghx-issue:hover {
+  background: #313131; }
+  .gadget .ghx-issue:hover .ghx-end {
+    background: transparent;
+    box-shadow: none; }
+
+.gadget .ghx-issue.ghx-selected {
+  background: #313131; }
+
+.gadget .ghx-issue .ghx-end {
+  background: transparent;
+  box-shadow: none; }
+
+.gadget.default .date-header {
+  border-color: #3a3a3a; }
+
+#issuetable .rowHeader {
+  background-color: #313131; }
+
+#issuetable .rowNormal {
+  background-color: #313131; }
+
+#issuetable .rowAlternate {
+  background-color: #313131; }
+
+.issue-table .rowHeader {
+  background-color: #313131; }
+
+.issue-table .rowNormal {
+  background-color: #313131; }
+
+.issue-table .rowAlternate {
+  background-color: #313131; }
+
+.activity-item {
+  border-color: #3a3a3a; }
+
+#activity-stream-show-more {
+  border-color: #4a4a4a; }
+
+#ghx-pool {
+  background: transparent; }
+
+.ghx-column-headers .ghx-column {
+  background: #4a4a4a;
+  border-bottom: 0;
+  padding: 10px;
+  background: #4a4a4a; }
+
+.ghx-column-headers h2 {
+  color: #ffffff; }
+
+.ghx-issue {
+  background: #313131;
+  border: 1px solid #4a4a4a;
+  color: #ffffff; }
+
+.aui-badge {
+  background: #ffffff; }
+
+.activity-item-grouped .activity-item-summary {
+  border-color: #3a3a3a; }
+
+.aui-page-header-main h1 {
+  color: #ffffff; }
+
+.sprint-days-remaining-dashboard-item .ghx-remaining-wrap {
+  background: transparent; }
+
+.webkit body {
+  background: transparent; }
+
+#ghx-column-header-group.ghx-fixed {
+  background: transparent; }
+
+.ghx-columns .ghx-column {
+  background: #4a4a4a; }
+
+.activity-item-description .user-content {
+  color: #ffffff; }
+
+.aui-group > .aui-item {
+  color: #808080; }
+
+/*# sourceMappingURL=../build/sourcemaps/style.css.map */

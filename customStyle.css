@@ -1,0 +1,124 @@
+#jira {
+    background: #ccc;
+}
+#jira #dashboard {
+    background: #4a4a4a;
+    border: 0;
+}
+#jira #footer {
+    background: #313131;
+}
+#jira #footer-logo {
+    background: #313131;
+}
+#jira .gadget .dashboard-item-header {
+    border: 1px solid #3a3a3a;
+}
+#jira .gadget .dashboard-item-content {
+    border: 1px solid #3a3a3a;
+    background: #313131;
+}
+#jira #issuetable>tbody>tr,
+#jira .issue-table>tbody>tr,
+#jira #issuetable>tfoot>tr,
+#jira .issue-table>tfoot>tr {
+    background-color: #313131;
+    color: #333;
+}
+#jira #issuetable,
+#jira .issue-table {
+    border-color: red
+}
+#jira #issuetable>thead>tr>th,
+#jira .issue-table>thead>tr>th,
+#jira #issuetable>tbody>tr>th,
+#jira .issue-table>tbody>tr>th,
+#jira #issuetable>thead>tr>td,
+#jira .issue-table>thead>tr>td,
+#jira #issuetable>tbody>tr>td,
+#jira .issue-table>tbody>tr>td,
+#jira #issuetable>tfoot>tr>td,
+#jira .issue-table>tfoot>tr>td {
+    border-color: #3a3a3a;
+}
+#jira #issuetable>thead .active,
+#jira .issue-table>thead .active {
+    color: #ffffff;
+    background-color: #4a4a4a;
+}
+#jira #issuetable>thead .sortable:hover,
+#jira .issue-table>thead .sortable:hover {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+.activity-stream-container {
+    background: #313131;
+}
+.activity-stream-container h2 {
+    color: #fff;
+}
+.gadget.default .date-header {
+    border-color: #3a3a3a;
+}
+#issuetable .rowHeader,
+.issue-table .rowHeader,
+#issuetable .rowNormal,
+.issue-table .rowNormal,
+#issuetable .rowAlternate,
+.issue-table .rowAlternate {
+    background-color: #313131;
+}
+.activity-item,
+.activity-item-grouped .activity-item-summary {
+    border-color: #3a3a3a;
+}
+#activity-stream-show-more {
+    border-color: #4a4a4a;
+}
+.aui-page-header-main h1 {
+    color: #fff;
+}
+.sprint-days-remaining-dashboard-item .ghx-remaining-wrap {
+    background: transparent;
+}
+.webkit body,
+#ghx-pool,
+#ghx-column-header-group.ghx-fixed {
+    background: transparent;
+}
+.ghx-column-headers .ghx-column {
+    background: #4a4a4a;
+    border-bottom: 0;
+    padding: 10px 10px 10px 10px;
+}
+.ghx-column-headers h2 {
+    color: #fff;
+}
+.ghx-column-headers .ghx-column,
+.ghx-columns .ghx-column {
+    background: #4a4a4a;
+}
+.ghx-issue {
+    background: #313131;
+    border: 1px solid #4a4a4a;
+    color: #fff;
+}
+.gadget .ghx-issue:hover,
+.gadget .ghx-issue.ghx-selected {
+    background: #313131;
+}
+.gadget .ghx-issue .ghx-end,
+.gadget .ghx-issue:hover .ghx-end {
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.aui-badge {
+    background: rgb(255, 255, 255);
+}
+.activity-item-description .user-content {
+    color: #fff;
+}
+.aui-group>.aui-item {
+    color: #808080;
+}

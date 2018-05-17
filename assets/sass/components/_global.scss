@@ -1,0 +1,249 @@
+//colors
+$color_celeste_approx: #ccc;
+$color_gravel_approx: #4a4a4a;
+$color_mine_shaft_approx: #313131;
+$color_masala_approx: #3a3a3a;
+$red: red;
+$white: #ffffff;
+$gray: #808080;
+
+#jira {
+    .aui-header {
+        background: #1b1b1b;
+    }
+    .aui-header .aui-button.aui-button-primary.aui-style {
+        background-color: #1d87f3;
+    }
+    #summary-val {
+        font-family: $standard;
+    }
+    .aui-page-panel,
+    #ghx-pool {
+        background: #313131;
+    }
+    .gadget a, .config a, .ghx-controls-filters dd a {
+        font-family: $standard;
+        color: #70b5ff;
+    }
+	background: $color_celeste_approx;
+	#dashboard {
+		background: $color_gravel_approx;
+		border: 0;
+    }
+    .gadget {
+        background: #313131;
+    }
+    #issue-content, .issue-view>.issue-container .issue-header, .issue-header .issue-header-content>.command-bar {
+        background-color: #313131;
+    }
+    .issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
+        background-color: #313131;
+        color: #ffffff;
+    }
+    .issue-body-content .module>.mod-header {
+        background: none;
+    }
+    #issuetable, .issue-table {
+        background-color: #313131;
+    }
+    #ghx-column-header-group.ghx-fixed {
+        background: transparent;
+    }
+	#footer {
+		background: $color_mine_shaft_approx;
+	}
+	#footer-logo {
+		background: $color_mine_shaft_approx;
+	}
+	.gadget {
+		.dashboard-item-header {
+			border: 1px solid $color_masala_approx;
+		}
+		.dashboard-item-content {
+			border: 1px solid $color_masala_approx;
+			background: $color_mine_shaft_approx;
+		}
+	}
+	#issuetable {
+		border-color: $red;
+		> thead {
+			> tr {
+				> th {
+					border-color: $color_masala_approx;
+				}
+				> td {
+					border-color: $color_masala_approx;
+				}
+			}
+			.active {
+				color: $white;
+				background-color: $color_gravel_approx;
+			}
+			.sortable:hover {
+				background-color: $color_gravel_approx;
+				color: $white;
+			}
+		}
+		> tbody > tr {
+			background-color: $color_mine_shaft_approx;
+			color: $color_mine_shaft_approx;
+			> th {
+				border-color: $color_masala_approx;
+			}
+			> td {
+				border-color: $color_masala_approx;
+			}
+		}
+		> tfoot > tr {
+			background-color: $color_mine_shaft_approx;
+			color: $color_mine_shaft_approx;
+			> td {
+				border-color: $color_masala_approx;
+			}
+		}
+    }
+    .sprint-days-remaining-dashboard-item .ghx-remaining-wrap {
+        background: #313131;
+    }
+	.issue-table {
+		border-color: $red;
+		> thead {
+			> tr {
+				> th {
+					border-color: $color_masala_approx;
+				}
+				> td {
+					border-color: $color_masala_approx;
+				}
+			}
+			.active {
+				color: $white;
+				background-color: $color_gravel_approx;
+			}
+			.sortable:hover {
+				background-color: $color_gravel_approx;
+				color: $white;
+			}
+		}
+		> tbody > tr {
+			background-color: $color_mine_shaft_approx;
+			color: $color_mine_shaft_approx;
+			> th {
+				border-color: $color_masala_approx;
+			}
+			> td {
+				border-color: $color_masala_approx;
+			}
+		}
+		> tfoot > tr {
+			background-color: $color_mine_shaft_approx;
+			color: $color_mine_shaft_approx;
+			> td {
+				border-color: $color_masala_approx;
+			}
+		}
+	}
+}
+.activity-stream-container {
+	background: $color_mine_shaft_approx;
+	h2 {
+		color: $white;
+	}
+}
+.gadget {
+	.ghx-issue {
+		&:hover {
+			background: $color_mine_shaft_approx;
+			.ghx-end {
+				background: transparent;
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: none;
+			}
+		}
+		&.ghx-selected {
+			background: $color_mine_shaft_approx;
+		}
+		.ghx-end {
+			background: transparent;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+	}
+	&.default .date-header {
+		border-color: $color_masala_approx;
+	}
+}
+#issuetable {
+	.rowHeader {
+		background-color: $color_mine_shaft_approx;
+	}
+	.rowNormal {
+		background-color: $color_mine_shaft_approx;
+	}
+	.rowAlternate {
+		background-color: $color_mine_shaft_approx;
+	}
+}
+.issue-table {
+	.rowHeader {
+		background-color: $color_mine_shaft_approx;
+	}
+	.rowNormal {
+		background-color: $color_mine_shaft_approx;
+	}
+	.rowAlternate {
+		background-color: $color_mine_shaft_approx;
+	}
+}
+.activity-item {
+	border-color: $color_masala_approx;
+}
+#activity-stream-show-more {
+	border-color: $color_gravel_approx;
+}
+#ghx-pool {
+	background: transparent;
+}
+.ghx-column-headers {
+	.ghx-column {
+		background: $color_gravel_approx;
+		border-bottom: 0;
+		padding: 10px;
+		background: $color_gravel_approx;
+	}
+	h2 {
+		color: $white;
+	}
+}
+.ghx-issue {
+	background: $color_mine_shaft_approx;
+	border: 1px solid $color_gravel_approx;
+	color: $white;
+}
+.aui-badge {
+	background: $white;
+}
+.activity-item-grouped .activity-item-summary {
+	border-color: $color_masala_approx;
+}
+.aui-page-header-main h1 {
+	color: $white;
+}
+.sprint-days-remaining-dashboard-item .ghx-remaining-wrap {
+	background: transparent;
+}
+.webkit body {
+	background: transparent;
+}
+#ghx-column-header-group.ghx-fixed {
+	background: transparent;
+}
+.ghx-columns .ghx-column {
+	background: $color_gravel_approx;
+}
+.activity-item-description .user-content {
+	color: $white;
+}
+.aui-group > .aui-item {
+	color: $gray;
+}

@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "My.ge Dev",
+	"description": "Jira's dark theme by Val Do",
+	"version": "1.0",
+	"icons": { "16": "dev-16.png", "128": "dev-128.png" },
+	"content_scripts": [{
+		"matches": [
+			"http://jira.my.ge/*"
+		],
+		"css": ["assets/css/build/style.min.css"]
+	}]
+}
