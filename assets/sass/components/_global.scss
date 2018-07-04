@@ -9,7 +9,8 @@ $gray: #808080;
 
 #jira {
     .aui-header {
-        background: #1b1b1b;
+		background: #1b1b1b;
+		border-bottom: 1px solid #000000;
     }
     .aui-header .aui-button.aui-button-primary.aui-style {
         background-color: #1d87f3;

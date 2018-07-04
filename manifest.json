@@ -6,7 +6,7 @@
 	"icons": { "16": "dev-16.png", "128": "dev-128.png" },
 	"content_scripts": [{
 		"matches": [
-			"http://jira.my.ge/*"
+			"http://jira.servisebi.ge/*"
 		],
 		"css": ["assets/css/build/style.min.css"]
 	}]
